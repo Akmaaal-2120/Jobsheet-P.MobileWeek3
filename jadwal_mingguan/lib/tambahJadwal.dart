@@ -1,3 +1,5 @@
+import 'dart:io';
+import 'jadwal.dart';
 void tambahJadwal(){
   stdout.write("Berapa jadwal yang ingin ditambahkan? ");
   int jumlah = int.parse(stdin.readLineSync()!); // input untuk brp hari yg ditambah
