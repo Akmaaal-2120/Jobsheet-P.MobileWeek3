@@ -1,14 +1,8 @@
-import 'package:jadwal_mingguan/jadwal_mingguan.dart' as jadwal_mingguan;
-import 'dart:io'; // import dart io
 import '../lib/tambahJadwal.dart';
 import '../lib/lihatJadwal.dart';
 import '../lib/lihatJadwalHari.dart';
-
-
+import 'dart:io';
 void main(){
-
-  Map<String, String> jadwal = {}; // untuk nyimpen data jadwal
-
   int menu; //variabel untuk input menu
   do{
     print("\n===== JADWAL BELAJAR MINGGUAN =====");
