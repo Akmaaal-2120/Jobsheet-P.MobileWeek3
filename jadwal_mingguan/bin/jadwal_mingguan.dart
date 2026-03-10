@@ -14,7 +14,7 @@ void main(){
     print("4. Keluar");
 
     stdout.write("Pilih Menu: ");
-    menu = int.parse(stdin.readLineSync()!);
+    menu = int.parse(stdin.readLineSync()!); // input angka untuk ganti menu
 
     switch(menu){  // switch case untuk perpindahan menu
       case 1:
