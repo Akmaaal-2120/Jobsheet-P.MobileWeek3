@@ -1,3 +1,4 @@
+import 'jadwal.dart';
 void lihatJadwal() {
   // Menampilkan header supaya output terlihat rapi
   print("=== Semua Jadwal ===");
