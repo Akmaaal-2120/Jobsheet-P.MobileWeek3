@@ -1,5 +1,9 @@
 import 'package:jadwal_mingguan/jadwal_mingguan.dart' as jadwal_mingguan;
 import 'dart:io'; // import dart io
+import '../lib/tambahJadwal.dart';
+import '../lib/lihatJadwal.dart';
+import '../lib/lihatJadwalHari.dart';
+
 
 void main(){
 
