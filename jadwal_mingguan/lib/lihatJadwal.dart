@@ -1,6 +1,5 @@
-import 'dart:io';
 import 'jadwal.dart';
-void lihatSemuaJadwal() {
+void lihatJadwal() {
   // Menampilkan header supaya output terlihat rapi
   print("=== Semua Jadwal ===");
   
