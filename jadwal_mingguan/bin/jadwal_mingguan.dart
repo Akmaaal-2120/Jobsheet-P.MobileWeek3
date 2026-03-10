@@ -1,5 +1,36 @@
 import 'package:jadwal_mingguan/jadwal_mingguan.dart' as jadwal_mingguan;
+import 'dart:io'; // import dart io
 
-void main(List<String> arguments) {
-  print('Hello world: ${jadwal_mingguan.calculate()}!');
+void main(){
+
+  Map<String, String> jadwal = {}; // untuk nyimpen data jadwal
+
+  int menu; //variabel untuk input menu
+  do{
+    print("\n===== JADWAL BELAJAR MINGGUAN =====");
+    print("1. Tambah Jadwal");
+    print("2. Lihat Semua Jadwal");
+    print("3. Lihat Jadwal Berdasar Hari");
+    print("4. Keluar");
+
+    stdout.write("Pilih Menu: ");
+    menu = int.parse(stdin.readLineSync()!);
+
+    switch(menu){  // switch case untuk perpindahan menu
+      case 1:
+        tambahJadwal();
+        break;
+      case 2:
+        lihatJadwal();
+        break;
+      case 3:
+        lihatJadwalHari();
+        break;
+      case 4:
+        print("Keluar...");
+        break;
+      default:
+        print("Menunya salah!");
+    }
+  } while (menu != 4); // kondisi ini jika true maka akan loop ke menu utama
 }
