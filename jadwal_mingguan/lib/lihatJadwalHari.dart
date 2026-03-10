@@ -1,3 +1,5 @@
+import 'dart:io';
+import 'jadwal.dart';
 void lihatJadwalHari() {
   // Menampilkan prompt ke layar supaya user memasukkan hari yang ingin dicek
   stdout.write("Masukkan hari: ");
